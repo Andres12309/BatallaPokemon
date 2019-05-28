@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Batalla de Pokemones</title>
+    <link rel="stylesheet" href="pagina.css">
+    <script src = "BatallaPokemon.js"></script>
+</head>
+<body>
+    <form name= "form" method="get">
+        <input type="text" name="pokemon" id="pokemon" maxlength="8" placeholder="Pokemon que va a atacar" required>
+        <input type="text" name="pokemon1" id="pokemon1" maxlength="8" placeholder="Pokemon a atacar" required>
+        <input type="button" id="btn" name="btn" value="Crear" onclick="crearPokemones()">
+        <input type="button" id="btn1" value="Matar" onclick="atacarPokemon()"><br>
+        <label for="nomPok1">Pokemon atacante: </label>
+        <input type="text" name="nomPokemon1" id="nomPok1">
+        <label for="vidaPok1">Vida del pokemon atacante: </label>
+        <input type="text" name="vidaPokemon1" id="vidaPok1">
+        <label for="nomPok2">Pokemon victima:</label>
+        <input type="text" name="nomPokemon2" id="nomPok2">
+        <label for="vidaPok2">Vida del pokemon victima: </label>
+        <input type="text" name="vidaPokemon2" id="vidaPok2">
+    </form>
+    
+</body>
+</html>
